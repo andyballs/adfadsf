@@ -1,0 +1,19 @@
+//Deobfuscated with https://github.com/SimplyProgrammer/Minecraft-Deobfuscator3000 using mappings "C:\Users\murra\Downloads\Minecraft-Deobfuscator3000-1.2.3(1)\conf"!
+
+//Decompiled by Procyon!
+
+package org.mozilla.javascript.tools.debugger;
+
+import javax.swing.*;
+import javax.swing.table.*;
+
+class Evaluator extends JTable
+{
+    private static final long serialVersionUID = 8133672432982594256L;
+    MyTableModel tableModel;
+    
+    public Evaluator(final SwingGui debugGui) {
+        super(new MyTableModel(debugGui));
+        this.tableModel = (MyTableModel)this.getModel();
+    }
+}

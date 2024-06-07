@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+FMLCorePluginContainsFMLMod: true
+FMLAT: ctjs_at.cfg
+TweakClass: gg.essential.loader.stage0.EssentialSetupTweaker
+FMLCorePlugin: dev.falsehonesty.asmhelper.core.AsmHelperLoadingPlugin
+
